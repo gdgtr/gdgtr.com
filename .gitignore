@@ -1,0 +1,32 @@
+pids
+results
+npm-debug.log
+node_modules
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.idea/
+.bower/
+public/
+logs/
+.project
+.settings
+config/*.json
+.arcanist-extensions/*/.phutil_module_cache
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Users Environment Variables
+.lock-wscript

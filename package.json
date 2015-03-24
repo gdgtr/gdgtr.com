@@ -1,0 +1,19 @@
+{
+  "name": "gdgtr.com",
+  "version": "0.0.1",
+  "description": "source code of gdgtr.com",
+  "main": "index.js",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.5.x"
+  },
+  "scripts": {
+    "main": "./node_modules/.bin/forever -m 5 server.js",
+    "test": "mocha --require=env-test --recursive test --reporter tap --timeout 50000ms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdgtr/gdgtr.com.git"
+  },
+  "homepage": "http://gdgtr.com"
+}
